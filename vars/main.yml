@@ -65,7 +65,7 @@ homebrew_cask_apps:
   - adobe-creative-cloud
   - bettertouchtool
   - caffeine
-  - duck
+  - cyberduck
   - google-chrome
   - google-chrome-canary
   - dropbox
@@ -75,7 +75,7 @@ homebrew_cask_apps:
   - handbrake
   - iterm2
   - karabiner
-  - lastpass-cli
+  - lastpass
   - limechat
   - licecap
   - macvim
