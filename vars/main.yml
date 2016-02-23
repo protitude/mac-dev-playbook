@@ -52,6 +52,7 @@ homebrew_installed_packages:
 
 homebrew_taps:
   - caskroom/cask
+  - caskroom/cask/brew-cask
   - homebrew/binary
   - homebrew/dupes
   - homebrew/php
@@ -76,6 +77,7 @@ homebrew_cask_apps:
   - iterm2
   - karabiner
   - Kitematic
+  - lastpass-cli
   - limechat
   - licecap
   - macvim
