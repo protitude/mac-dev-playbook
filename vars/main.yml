@@ -76,7 +76,6 @@ homebrew_cask_apps:
   - skype
   - skitch
   - sublime-text # Note - Sublime Text 2 only, at this time...
-  - textmate
   - tower
   - transmit
   - vagrant
