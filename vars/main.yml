@@ -62,6 +62,7 @@ homebrew_cask_apps:
   - adium
   - bettertouchtool
   - google-chrome
+  - google-chrome-canary
   - dropbox
   - fing
   - firefox
