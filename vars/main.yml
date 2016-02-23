@@ -56,25 +56,32 @@ homebrew_taps:
   - homebrew/dupes
   - homebrew/php
   - homebrew/versions
+  - iterate-ch/cyberduck
+  - caskroom/versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - adium
   - adobe-creative-cloud
   - bettertouchtool
-  - iterate-ch/cyberduck/duck
+  - caffeine
+  - duck
   - google-chrome
   - google-chrome-canary
   - dropbox
   - fing
   - firefox
+  - firefoxdeveloperedition
   - handbrake
+  - iterm2
   - karabiner
+  - Kitematic
   - limechat
   - licecap
   - macvim
   - menumeters
   - nvalt
+  - paw
   - sequel-pro
   - skype
   - skitch
