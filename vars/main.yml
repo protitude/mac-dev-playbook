@@ -63,7 +63,6 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - adium
   - adobe-creative-cloud
-  - bettertouchtool
   - caffeine
   - cyberduck
   - google-chrome
