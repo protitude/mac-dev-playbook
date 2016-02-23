@@ -60,7 +60,9 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - adium
+  - adobe-creative-cloud
   - bettertouchtool
+  - iterate-ch/cyberduck/duck
   - google-chrome
   - google-chrome-canary
   - dropbox
