@@ -13,7 +13,7 @@ This is a work in progress, and is mostly a means for me to document my current 
 ## Installation
 
   1. [Install Homebrew](http://brew.sh)
-   >```
+   ```
    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
    ```
   2. Install Ansible - brew install ansible
