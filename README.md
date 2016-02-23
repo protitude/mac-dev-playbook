@@ -13,13 +13,12 @@ This is a work in progress, and is mostly a means for me to document my current 
 ## Installation
 
   1. [Install Homebrew](http://brew.sh)
-  ```
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  ```
+        </usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)">
   2. Install Ansible - brew install ansible
   3. Ensure Apple's command line tools are installed (`xcode-select --install` to launch the installer).
   4. Clone this repository to your local drive.
   5. Run the command `$ ansible-galaxy install -r requirements.txt` inside this directory to install required Ansible roles.
+        <roles installed to: /usr/local/etc/ansible/roles>
   6. Run `ansible-playbook main.yml -i inventory --ask-sudo-pass` from the same directory as this README file.
 
 ## Included Applications / Configuration
