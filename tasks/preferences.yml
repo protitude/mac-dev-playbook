@@ -43,4 +43,21 @@
   sudo: no
   with_items: sublime_text
 
-  # TODO: Configure Sublime Text (see templates/sublime/*).
+- name: Create web folder.
+  file:
+    path: "~/Documents/web"
+    state: "directory"
+
+- name: Symlinks for web directory.
+  file:
+    src: "~/Documents/web"
+    dest: "/web"
+    force: true
+    state: link
+  file:
+    src: "~/Documents/web"
+    dest: "~/web"
+    force: true
+    state: link
+  sudo: yes
+  with_items: web
