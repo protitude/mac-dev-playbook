@@ -34,12 +34,12 @@
     repo: "https://github.com/VundleVim/Vundle.vim.git"
     dest: "~/.vim/bundle/Vundle.vim"
 
-- name: Link dotfiles into home folder.
+- name: Link Sublime Text folder to Dropbox folder.
   file:
     src: "~/Library/Application\ Support/Sublime\ Text\ 3"
     dest: "~/Dropbox/programs/Sublime\ Text\ 3"
     state: link
-    sudo: no
-    with_items: sublime_text
+  sudo: no
+  with_items: sublime_text
 
   # TODO: Configure Sublime Text (see templates/sublime/*).
