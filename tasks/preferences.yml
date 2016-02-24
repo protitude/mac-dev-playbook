@@ -54,10 +54,5 @@
     dest: "/web"
     force: true
     state: link
-  file:
-    src: "~/Documents/web"
-    dest: "~/web"
-    force: true
-    state: link
   sudo: yes
-  with_items: web
+  with_items: web_root
