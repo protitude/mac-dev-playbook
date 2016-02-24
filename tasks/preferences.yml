@@ -29,4 +29,8 @@
   sudo: yes
   when: configure_sudoers
 
+- name: Clone Vundle
+  git: repo=https://github.com/VundleVim/Vundle.vim.git
+  dest=~/.vim/bundle/Vundle.vim
+
 # TODO: Configure Sublime Text (see templates/sublime/*).
