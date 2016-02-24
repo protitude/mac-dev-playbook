@@ -4,13 +4,13 @@ downloads: ~/.ansible-downloads/
 configure_sudoers: yes
 
 dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/Documents/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitconfig
   - .gitignore
-  - .inputrc
   - .osx
+  - .vim
   - .vimrc
 
 homebrew_installed_packages:
