@@ -34,20 +34,10 @@
     repo: "https://github.com/VundleVim/Vundle.vim.git"
     dest: "~/.vim/bundle/Vundle.vim"
 
-- name: Create Sublime Text folder for Dropbox to fill.
-  file:
-    path: "~/Dropbox/programs/Sublime\ Text\ 3"
-    state: "directory"
-
-- name: Remove sublime text folder created by program.
-  file:
-    path: "~/Library/Application\ Support/Sublime\ Text\ 3"
-    state: "absent"
-
 - name: Link Sublime Text folder to Dropbox folder.
   file:
-    src: "~/Library/Application\ Support/Sublime\ Text\ 3"
-    dest: "~/Dropbox/programs/Sublime\ Text\ 3"
+    src: "~/Dropbox/programs/Sublime\ Text\ 3"
+    dest: "~/Library/Application\ Support/Sublime\ Text\ 3"
     force: true
     state: link
   sudo: no
