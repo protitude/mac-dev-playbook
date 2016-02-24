@@ -82,7 +82,7 @@ homebrew_cask_apps:
   - sequel-pro
   - skype
   - skitch
-  - sublime-text # Note - Sublime Text 2 only, at this time...
+  - sublime-text3
   - tower
   - transmit
   - vagrant
