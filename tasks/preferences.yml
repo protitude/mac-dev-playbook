@@ -39,6 +39,11 @@
     path: "~/Dropbox/programs/Sublime\ Text\ 3"
     state: "directory"
 
+- name: Remove sublime text folder created by program.
+  file:
+    path: "~/Library/Application\ Support/Sublime\ Text\ 3"
+    state: "absent"
+
 - name: Link Sublime Text folder to Dropbox folder.
   file:
     src: "~/Library/Application\ Support/Sublime\ Text\ 3"
