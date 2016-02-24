@@ -41,6 +41,7 @@ homebrew_installed_packages:
   - cowsay
   - ios-sim
   - readline
+  - selenium-server-standalone
   - subversion
   - kdiff3
   - openssl
