@@ -34,6 +34,11 @@
     repo: "https://github.com/VundleVim/Vundle.vim.git"
     dest: "~/.vim/bundle/Vundle.vim"
 
+- name: Create Sublime Text folder for Dropbox to fill.
+    file:
+      path: "~/Dropbox/programs/Sublime\ Text\ 3"
+      state: "directory"
+
 - name: Link Sublime Text folder to Dropbox folder.
   file:
     src: "~/Library/Application\ Support/Sublime\ Text\ 3"
