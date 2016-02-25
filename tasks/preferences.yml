@@ -54,4 +54,5 @@
     dest: "/web"
     force: true
     state: link
+  su: yes
   with_items: web_root
