@@ -5,6 +5,7 @@ configure_sudoers: yes
 
 dotfiles_repo: https://github.com/protitude/dotfiles
 dotfiles_repo_local_destination: ~/Documents/dotfiles
+user: milesfrance
 dotfiles_files:
   - .bash_profile
   - .osx

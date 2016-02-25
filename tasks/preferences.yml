@@ -55,4 +55,3 @@
     force: true
     state: link
   sudo: yes
-  with_items: web_root
