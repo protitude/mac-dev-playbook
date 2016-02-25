@@ -50,7 +50,7 @@
 
 - name: Symlinks for web directory.
   file:
-    src: "~/Documents/web"
+    src: "/Users/{{ user }}/Documents/web"
     dest: "/web"
     force: true
     state: link
