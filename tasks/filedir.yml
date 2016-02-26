@@ -37,11 +37,6 @@
     url: "https://www.astrill.com/downloads/astrill-setup-mac.dmg?mirror=usa"
     dest: "~/Downloads"
 
-- name: Download Cisco AnyConnect.
-  get_url:
-    url: "https://cuservices.colorado.edu/vpn/download/anyconnect-macosx.dmg"
-    dest: "~/Downloads"
-
 - name: Download Kimono.
   get_url:
     url: "https://s3.amazonaws.com/kimono-desktop-releases/v1.0.5/Kimono.app.zip"
@@ -51,6 +46,9 @@
   get_url:
     url: "http://ettoresoftware.com/download/TypeIt4MeInstaller.dmg"
     dest: "~/Downloads"
+
+- name: Open Cisco AnyConnect install page.
+  command: "open -a /Applications/Google\ Chrome.app https://cuservices.colorado.edu/vpn/download/anyconnect-macosx.dmg"
 
 - name: Open YubiKey install page.
   command: "open -a /Applications/Google\ Chrome.app https://itunes.apple.com/us/app/yubikey-personalization-tool/id638161122?mt=12"
