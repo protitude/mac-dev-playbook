@@ -48,11 +48,11 @@
     dest: "~/Downloads"
 
 - name: Open Cisco AnyConnect install page.
-  command: "open -a /Applications/Google\ Chrome.app https://cuservices.colorado.edu/vpn/download/anyconnect-macosx.dmg"
+  command: "open https://cuservices.colorado.edu/vpn/download/anyconnect-macosx.dmg"
 
 - name: Open YubiKey install page.
-  command: "open -a /Applications/Google\ Chrome.app https://itunes.apple.com/us/app/yubikey-personalization-tool/id638161122?mt=12"
+  command: "open https://itunes.apple.com/us/app/yubikey-personalization-tool/id638161122?mt=12"
 
 - name: Open Sophos antivirus install page.
-  command: "open -a /Applications/Google\ Chrome.app https://cuservices.colorado.edu/sitelicenses/download/Sophos_Installer.dmg"
+  command: "open https://cuservices.colorado.edu/sitelicenses/download/Sophos_Installer.dmg"
 

@@ -15,13 +15,18 @@ dotfiles_files:
 homebrew_installed_packages:
   - ansible
   - autoconf
+  - awscli
   - bash-completion
   - boot2docker
+  - colordiff
   - docker
+  - fortune
   - gettext
   - git
   - go
   - gpg
+  - hh
+  - htop
   - hub
   - iperf
   - libdvdcss
@@ -38,6 +43,7 @@ homebrew_installed_packages:
   - php56-xdebug
   - ssh-copy-id
   - cowsay
+  - tree
   - ios-sim
   - readline
   - selenium-server-standalone
