@@ -41,3 +41,20 @@
   get_url:
     url: "https://cuservices.colorado.edu/vpn/download/anyconnect-macosx.dmg"
     dest: "~/Downloads"
+
+- name: Download Kimono.
+  get_url:
+    url: "https://s3.amazonaws.com/kimono-desktop-releases/v1.0.5/Kimono.app.zip"
+    dest: "~/Downloads"
+
+- name: Download TypeIt4Me.
+  get_url:
+    url: "http://ettoresoftware.com/download/TypeIt4MeInstaller.dmg"
+    dest: "~/Downloads"
+
+- name: Open YubiKey install page.
+  command: "open -a /Applications/Google\ Chrome.app https://itunes.apple.com/us/app/yubikey-personalization-tool/id638161122?mt=12"
+
+- name: Open Sophos antivirus install page.
+  command: "open -a /Applications/Google\ Chrome.app https://cuservices.colorado.edu/sitelicenses/download/Sophos_Installer.dmg"
+
