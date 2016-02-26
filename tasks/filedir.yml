@@ -47,6 +47,11 @@
     url: "http://ettoresoftware.com/download/TypeIt4MeInstaller.dmg"
     dest: "~/Downloads"
 
+- name: Download VeraCrypt.
+  get_url:
+    url: "https://veracrypt.codeplex.com/downloads/get/1537180"
+    dest: "~/Downloads"
+
 - name: Open Cisco AnyConnect install page.
   command: "open https://cuservices.colorado.edu/vpn/download/anyconnect-macosx.dmg"
 
