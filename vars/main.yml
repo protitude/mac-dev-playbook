@@ -19,6 +19,7 @@ homebrew_installed_packages:
   - boot2docker
   - docker
   - gettext
+  - gimp
   - git
   - go
   - gpg

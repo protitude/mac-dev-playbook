@@ -37,3 +37,7 @@
     url: "https://www.astrill.com/downloads/astrill-setup-mac.dmg?mirror=usa"
     dest: "~/Downloads"
 
+- name: Download Cisco AnyConnect.
+  get_url:
+    url: "https://cuservices.colorado.edu/vpn/download/anyconnect-macosx.dmg"
+    dest: "~/Downloads"
