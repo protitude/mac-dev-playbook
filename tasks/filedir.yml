@@ -1,0 +1,39 @@
+- name: Clone Vundle
+  git:
+    repo: "https://github.com/VundleVim/Vundle.vim.git"
+    dest: "~/.vim/bundle/Vundle.vim"
+
+- name: Link Sublime Text folder to Dropbox folder.
+  file:
+    src: "~/Dropbox/programs/Sublime\ Text\ 3"
+    dest: "~/Library/Application\ Support/Sublime\ Text\ 3"
+    force: true
+    state: link
+  sudo: no
+  with_items: sublime_text
+
+- name: Create web folder.
+  file:
+    path: "~/Documents/web"
+    state: "directory"
+
+- name: Symlinks for web directory.
+  file:
+    src: "/Users/{{ user }}/Documents/web"
+    dest: "/web"
+    force: true
+    state: link
+  sudo: yes
+
+- name: Symlinks for web directory.
+  file:
+    src: "~/Documents/web"
+    dest: "~/web"
+    force: true
+    state: link
+
+- name: Download astrill.
+  get_url:
+    url: "https://www.astrill.com/downloads/astrill-setup-mac.dmg?mirror=usa"
+    dest: "~/Downloads"
+
