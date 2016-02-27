@@ -8,6 +8,7 @@ dotfiles_repo_local_destination: ~/Documents/dotfiles
 user: milesfrance
 dotfiles_files:
   - .bash_profile
+  - .bash_ps1
   - .osx
   - .vim
   - .vimrc
