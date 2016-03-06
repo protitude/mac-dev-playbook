@@ -71,6 +71,7 @@ homebrew_cask_apps:
   - adium
   - adobe-creative-cloud
   - caffeine
+  - calibre
   - cyberduck
   - google-chrome
   - google-chrome-canary
