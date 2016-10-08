@@ -49,13 +49,11 @@ homebrew_installed_packages:
   - readline
   - selenium-server-standalone
   - subversion
-  - kdiff3
   - openssl
   - pv
   - drush
   - wget
   - wrk
-  - brew-cask
 
 homebrew_taps:
   - caskroom/cask
