@@ -34,7 +34,7 @@
 
 - name: Download astrill.
   get_url:
-    url: "https://www.astrill.com/downloads/astrill-setup-mac.dmg?mirror=usa"
+    url: "https://www.astrill.com/downloads/astrill-setup-mac.pkg?mirror=usa"
     dest: "~/Downloads"
 
 - name: Download Kimono.
