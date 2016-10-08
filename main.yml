@@ -9,7 +9,7 @@
   roles:
     #  - geerlingguy.homebrew
     - geerlingguy.dotfiles
-    - geerlingguy.homebrew
+    - ansible-role-homebrew
 
   tasks:
     - include: tasks/ansible-setup.yml
