@@ -70,6 +70,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - adium
   - adobe-creative-cloud
+  - amazon-music
   - caffeine
   - calibre
   - cyberduck
@@ -80,6 +81,8 @@ homebrew_cask_apps:
   - firefox
   - firefoxdeveloperedition
   - handbrake
+  - kindle
+  - insync
   - iterm2
   - karabiner
   - lastpass
@@ -87,6 +90,7 @@ homebrew_cask_apps:
   - licecap
   - macvim
   - nvalt
+  - screenflow
   - sequel-pro
   - skype
   - skitch
