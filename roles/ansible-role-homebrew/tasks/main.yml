@@ -12,7 +12,8 @@
     mode: 0775
     group: admin
     state: directory
-  become_user: root
+  become: yes
+  become_method: sudo
 
 - name: Ensure Homebrew directory exists.
   file:
@@ -21,7 +22,8 @@
     owner: "{{ homebrew_whoami.stdout }}"
     group: admin
     state: directory
-  become_user: root
+  become: yes
+  become_method: sudo
 
 # Clone Homebrew.
 - name: Ensure Homebrew is installed.
@@ -39,7 +41,8 @@
     path: "{{ homebrew_brew_bin_path }}"
     mode: 0775
     state: directory
-  become_user: root
+  become: yes
+  become_method: sudo
 
 - name: Ensure proper ownership on homebrew_install_path subdirs.
   file:
@@ -48,7 +51,8 @@
     owner: "{{ homebrew_whoami.stdout }}"
     group: admin
     recurse: true
-  become_user: root
+  become: yes
+  become_method: sudo
 
 # Place brew binary in proper location and complete setup.
 - name: Check if homebrew binary is already in place.
@@ -61,7 +65,8 @@
     dest: "{{ homebrew_brew_bin_path }}/brew"
     state: link
   when: homebrew_binary.stat.exists == false
-  become_user: root
+  become: yes
+  become_method: sudo
 
 - name: Force update brew after installation.
   command: "{{ homebrew_brew_bin_path }}/brew update --force"
