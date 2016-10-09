@@ -21,7 +21,7 @@ This is a work in progress, and is mostly a means for me to document my current 
   4. Clone this repository to your local drive.
   5. Run the command `$ ansible-galaxy install -r requirements.txt` inside this directory to install required Ansible roles.
   roles installed to: ``/usr/local/etc/ansible/roles``
-  6. Run `ansible-playbook main.yml -i inventory --ask-sudo-pass` from the same directory as this README file.
+  6. Run `ansible-playbook main.yml -i inventory -K` from the same directory as this README file.
 
 ## Included Applications / Configuration
 
