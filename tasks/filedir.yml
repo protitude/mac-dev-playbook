@@ -14,7 +14,7 @@
 
 - name: Create web folder.
   file:
-    path: "~/Documents/web"
+    path: "/Users/{{ user }}/Documents/web"
     state: "directory"
 
 - name: Symlinks for web directory.
@@ -27,7 +27,7 @@
 
 - name: Symlinks for web directory.
   file:
-    src: "~/Documents/web"
+    src: "/Users/{{ user }}/Documents/web"
     dest: "~/web"
     force: true
     state: link
@@ -36,32 +36,55 @@
   get_url:
     url: "https://www.astrill.com/downloads/astrill-setup-mac.pkg?mirror=usa"
     dest: "~/Downloads"
+  tags:
+    - downloads
 
 - name: Download Kimono.
   get_url:
     url: "https://s3.amazonaws.com/kimono-desktop-releases/v1.0.5/Kimono.app.zip"
     dest: "~/Downloads"
+  tags:
+    - downloads
 
 - name: Download TypeIt4Me.
   get_url:
     url: "http://ettoresoftware.com/download/TypeIt4MeInstaller.dmg"
     dest: "~/Downloads"
+  tags:
+    - downloads
 
 - name: Open VeraCrypt DL page.
   command: "open https://veracrypt.codeplex.com/downloads/get/1537180"
+  tags:
+    - downloads
 
 - name: Open Cisco AnyConnect install page.
   command: "open https://cuservices.colorado.edu/vpn/download/anyconnect-macosx.dmg"
+  tags:
+    - downloads
 
 - name: Open YubiKey install page.
   command: "open https://itunes.apple.com/us/app/yubikey-personalization-tool/id638161122?mt=12"
+  tags:
+    - downloads
 
 - name: Open lastpass app install page.
   command: "open https://itunes.apple.com/us/app/lastpass-password-manager/id926036361?mt=12"
+  tags:
+    - downloads
 
 - name: Open Kindle app.
   command: "open https://itunes.apple.com/us/app/kindle/id405399194?mt=12"
+  tags:
+    - downloads
 
 - name: Open Sophos antivirus install page.
   command: "open https://cuservices.colorado.edu/sitelicenses/download/Sophos_Installer.dmg"
+  tags:
+    - downloads
+
+- name: Open Sophos antivirus install page.
+  command: "open http://www.jeffgeerling.com/blog/2016/remapping-caps-lock-key-escape-macos-sierra"
+  tags:
+    - downloads
 
