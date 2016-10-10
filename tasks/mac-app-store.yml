@@ -1,0 +1,14 @@
+---
+
+- name: Install Mac App Store apps.
+  shell: mas list | grep {{ item }} || mas install {{ item }}
+  with_items:
+    - 497799835 # xcode
+    - 405399194 # kindle
+    - 405399194 # yubikey
+    - 926036361 # lastpass
+  # - 361309726 # pages - complains about user id :/
+    - 409183694 # keynote
+  # - 361304891 #numbers
+  register: result
+  changed_when: result.stdout.find('Installed') != -1
