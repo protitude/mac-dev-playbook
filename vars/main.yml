@@ -76,6 +76,7 @@ homebrew_cask_apps:
   - cyberduck
   - google-chrome
   - google-chrome-canary
+  - gpgtools
   - dropbox
   - fing
   - firefox
@@ -95,6 +96,7 @@ homebrew_cask_apps:
   - skype
   - skitch
   - sublime-text
+  - thunderbird
   - tower
   - transmit
   - vagrant

@@ -68,8 +68,3 @@
   tags:
     - downloads
 
-- name: Open Sophos antivirus install page.
-  command: "open http://www.jeffgeerling.com/blog/2016/remapping-caps-lock-key-escape-macos-sierra"
-  tags:
-    - downloads
-
