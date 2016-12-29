@@ -20,7 +20,8 @@ homebrew_installed_packages:
   - bash-completion
   - boot2docker
   - colordiff
-  - docker
+  - chromedriver
+  - doxygen
   - fortune
   - gettext
   - git
@@ -28,6 +29,7 @@ homebrew_installed_packages:
   - gpg
   - hh
   - htop
+  - httpie
   - hub
   - iperf
   - libdvdcss
@@ -40,13 +42,15 @@ homebrew_installed_packages:
   - mysql
   - npm
   - nvm
+  #  - php70
+  #  - php70-mcrypt
+  #  - php70-xdebug
   - php56
   - php56-mcrypt
   - php56-xdebug
   - ssh-copy-id
   - cowsay
   - tree
-  - ios-sim
   - readline
   - selenium-server-standalone
   - subversion
@@ -57,6 +61,7 @@ homebrew_installed_packages:
   - wrk
 
 homebrew_taps:
+  - homebrew/core
   - caskroom/cask
   - homebrew/binary
   - homebrew/dupes
@@ -70,6 +75,7 @@ homebrew_cask_apps:
   - adium
   - adobe-creative-cloud
   - amazon-music
+  - docker
   - android-file-transfer
   - caffeine
   - calibre
@@ -95,6 +101,7 @@ homebrew_cask_apps:
   - sequel-pro
   - skype
   - skitch
+  - slack
   - sublime-text
   - thunderbird
   - tower
