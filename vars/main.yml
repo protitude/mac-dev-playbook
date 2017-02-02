@@ -107,6 +107,7 @@ homebrew_cask_apps:
   - thunderbird
   - tower
   - transmit
+  - unetbootin
   - vagrant
   - vagrant-manager
   - vlc
