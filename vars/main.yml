@@ -27,6 +27,7 @@ homebrew_installed_packages:
   - git
   - go
   - gpg
+  - guetzli
   - hh
   - htop
   - httpie
