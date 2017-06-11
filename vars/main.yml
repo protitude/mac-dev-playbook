@@ -24,6 +24,7 @@ homebrew_installed_packages:
   - doxygen
   - fortune
   - gettext
+  - gflags
   - git
   - go
   - gpg
@@ -35,9 +36,11 @@ homebrew_installed_packages:
   - iperf
   - libdvdcss
   - libevent
+  - libpng
   - packer
   - python
   - sqlite
+  - tmux
   - mas
   - mcrypt
   - mysql
