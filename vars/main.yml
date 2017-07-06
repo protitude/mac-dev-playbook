@@ -61,7 +61,7 @@ homebrew_installed_packages:
   - subversion
   - openssl
   - pv
-  - drush
+  # - drush
   - wget
   - wrk
 
@@ -80,6 +80,7 @@ homebrew_cask_apps:
   - adium
   - adobe-creative-cloud
   - amazon-music
+  - android-platform-tools
   - docker
   - android-file-transfer
   - caffeine
