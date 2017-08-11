@@ -34,8 +34,9 @@
 
 - name: Download astrill.
   get_url:
-    url: "https://www.astrill.com/downloads/astrill-setup-mac.pkg?mirror=usa"
+    url: "https://www.astrill.com/downloads/astrill-setup-mac.pkg"
     dest: "~/Downloads"
+    validate_certs: 'no'
   tags:
     - downloads
 
