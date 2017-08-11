@@ -7,9 +7,9 @@
     - vars/main.yml
 
   roles:
-    #  - geerlingguy.homebrew
     - geerlingguy.dotfiles
     - ansible-role-homebrew
+    #  - geerlingguy.homebrew
 
   tasks:
     - include: tasks/ansible-setup.yml

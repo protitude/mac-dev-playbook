@@ -19,7 +19,7 @@ This is a work in progress, and is mostly a means for me to document my current 
   2. Install Ansible - brew install ansible
   3. Ensure Apple's command line tools are installed (`xcode-select --install` to launch the installer).
   4. Clone this repository to your local drive.
-  5. Run the command `$ ansible-galaxy install -r requirements.txt` inside this directory to install required Ansible roles.
+  5. Run the command `ansible-galaxy install -r requirements.yml` inside this directory to install required Ansible roles.
   roles installed to: ``/usr/local/etc/ansible/roles``
   6. Run `ansible-playbook main.yml -i inventory -K` from the same directory as this README file.
   7. Any subsequent runs can skip the file downloads by skipping the downloads tag `ansible-playbook main.yml -i inventory --skip-tags=downloads -K`.
