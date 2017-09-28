@@ -50,9 +50,9 @@ homebrew_installed_packages:
   #  - php70
   #  - php70-mcrypt
   #  - php70-xdebug
-  - php56
-  - php56-mcrypt
-  - php56-xdebug
+  #  - php56
+  #  - php56-mcrypt
+  #  - php56-xdebug
   - ssh-copy-id
   - cowsay
   - tree
