@@ -63,6 +63,7 @@ homebrew_installed_packages:
   - openssl
   - pv
   # - drush
+  - drush-launcher
   - wget
   - wrk
 
