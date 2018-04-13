@@ -34,6 +34,7 @@ homebrew_installed_packages:
   - httpie
   - hub
   - iperf
+  - lando
   - libdvdcss
   - libevent
   - libpng
