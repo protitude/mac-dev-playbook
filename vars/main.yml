@@ -34,7 +34,6 @@ homebrew_installed_packages:
   - httpie
   - hub
   - iperf
-  - lando
   - libdvdcss
   - libevent
   - libpng
@@ -101,6 +100,7 @@ homebrew_cask_apps:
   - insync
   - iterm2
   - karabiner
+  - lando
   - lastpass
   - limechat
   - licecap
