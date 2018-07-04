@@ -69,7 +69,7 @@ homebrew_installed_packages:
 
 homebrew_taps:
   - homebrew/core
-  - caskroom/cask
+  - homebrew/cask
     #  - homebrew/binary
     #  - homebrew/dupes
     #  - homebrew/php
