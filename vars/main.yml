@@ -6,6 +6,7 @@ configure_sudoers: yes
 dotfiles_repo: https://github.com/protitude/dotfiles
 dotfiles_repo_local_destination: ~/Documents/dotfiles
 user: milesfrance
+ansible_distribution_version: 10.13.5
 dotfiles_files:
   - .bash_profile
   - .bash_ps1
