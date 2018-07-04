@@ -33,7 +33,7 @@
 
 - name: Download Kimono.
   get_url:
-    url: "https://s3.amazonaws.com/kimono-desktop-releases/v1.0.5/Kimono.app.zip"
+    url: "https://www.dropbox.com/s/dev2ygqrry24vyb/Kimono.app.zip"
     dest: "~/Downloads"
   tags:
     - downloads

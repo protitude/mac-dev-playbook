@@ -79,27 +79,26 @@ homebrew_cask_apps:
   - adium
   - adobe-creative-cloud
   - android-platform-tools
-  - docker-edge
+  - docker
   - android-file-transfer
   - caffeine
   - calibre
   - chromedriver
   - cyberduck
   - google-chrome
-  - google-chrome-canary
+    #- google-chrome-canary
   - gpg-suite
   - dropbox
   - fing
   - firefox
-  - firefoxdeveloperedition
   - handbrake
   - kindle
   - insync
   - iterm2
   - karabiner
   - lando
-  - lastpass
-  - limechat
+    #- lastpass
+    #- limechat
   - licecap
   - macvim
   - nvalt
@@ -116,4 +115,5 @@ homebrew_cask_apps:
   - vagrant
   - vagrant-manager
   - vlc
-  - virtualbox
+  #https://github.com/Homebrew/homebrew-cask/issues/39369
+  # - virtualbox
