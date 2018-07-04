@@ -78,7 +78,6 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - adium
   - adobe-creative-cloud
-  - amazon-music
   - android-platform-tools
   - docker-edge
   - android-file-transfer
