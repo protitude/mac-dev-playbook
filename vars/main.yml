@@ -70,12 +70,12 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
-  - homebrew/binary
-  - homebrew/dupes
-  - homebrew/php
-  - homebrew/versions
+    #  - homebrew/binary
+    #  - homebrew/dupes
+    #  - homebrew/php
+    #  - homebrew/versions
   - iterate-ch/cyberduck
-  - caskroom/versions
+    #- caskroom/versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
