@@ -6,11 +6,10 @@
   changed_when: false
   check_mode: no
 
-- name: Ensure Homebrew parent directory has correct permissions.
+- name: Ensure Homebrew parent directory has correct permissions (on High Sierra).
   file:
     path: "{{ homebrew_prefix }}"
-    mode: 0775
-    group: admin
+    owner: root
     state: directory
   become: yes
 
