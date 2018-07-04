@@ -8,4 +8,4 @@
   file:
     path: /etc/ansible
     state: directory
-  sudo: yes
+  become: yes
