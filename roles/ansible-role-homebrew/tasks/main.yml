@@ -86,7 +86,7 @@
   command: >
     bash -l -c '{{ homebrew_brew_bin_path }}/brew cask list'
   register: homebrew_cask_list
-  always_run: yes
+  check_mode: no
   changed_when: false
 
 # Use command module instead of homebrew_cask so appdir can be used.

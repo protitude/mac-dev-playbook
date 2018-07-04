@@ -9,7 +9,6 @@
     dest: "~/Library/Application\ Support/Sublime\ Text\ 3"
     force: true
     state: link
-  sudo: no
   with_items: sublime_text
 
 - name: Create web folder.
@@ -23,7 +22,7 @@
     dest: "/web"
     force: true
     state: link
-  sudo: yes
+  become: yes
 
 - name: Symlinks for web directory.
   file:
