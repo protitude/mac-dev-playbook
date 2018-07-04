@@ -87,7 +87,7 @@ homebrew_cask_apps:
   - cyberduck
   - google-chrome
   - google-chrome-canary
-  - gpgtools
+  - gpg-suite
   - dropbox
   - fing
   - firefox
