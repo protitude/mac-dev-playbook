@@ -61,8 +61,6 @@ homebrew_installed_packages:
   - subversion
   - openssl
   - pv
-  # - drush
-  - drush-launcher
   - wget
   - wrk
 
