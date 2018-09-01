@@ -65,3 +65,8 @@
   tags:
     - downloads
 
+- name: Open Virtualbox install page.
+  command: "open https://www.virtualbox.org/wiki/Downloads"
+  tags:
+    - downloads
+
