@@ -7,8 +7,9 @@
     - 405399194 # kindle
     - 405399194 # yubikey
     - 926036361 # lastpass
-  # - 361309726 # pages - complains about user id :/
+    - 361309726 # pages - complains about user id :/
     - 409183694 # keynote
-  # - 361304891 #numbers
+    - 361304891 #numbers
+    - 1147396723 #whats app
   register: result
   changed_when: result.stdout.find('Installed') != -1

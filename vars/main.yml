@@ -33,6 +33,7 @@ homebrew_installed_packages:
   - httpie
   - hub
   - iperf
+  - jq
   - libdvdcss
   - libevent
   - libpng
@@ -89,7 +90,6 @@ homebrew_cask_apps:
     #- google-chrome-canary
   - gpg-suite
   - dropbox
-  - fing
   - firefox
   - handbrake
   - kindle

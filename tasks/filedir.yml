@@ -70,3 +70,8 @@
   tags:
     - downloads
 
+- name: Open Powerline font install page.
+  command: "open https://coderwall.com/p/yiot4q/setup-vim-powerline-and-iterm2-on-mac-os-x"
+  tags:
+    - downloads
+
