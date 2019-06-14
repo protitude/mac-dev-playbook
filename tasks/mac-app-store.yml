@@ -11,5 +11,6 @@
     - 409183694 # keynote
     - 409203825 #numbers
     - 1147396723 #whats app
+    - 1116599239 #nordVPN
   register: result
   changed_when: result.stdout.find('Installed') != -1

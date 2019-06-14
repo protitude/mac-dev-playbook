@@ -32,6 +32,7 @@ homebrew_installed_packages:
   - htop
   - httpie
   - hub
+  - hugo
   - iperf
   - jq
   - libdvdcss
@@ -62,6 +63,7 @@ homebrew_installed_packages:
   - subversion
   - openssl
   - pv
+  - webp
   - wget
   - wrk
 
@@ -115,5 +117,6 @@ homebrew_cask_apps:
   - vagrant
   - vagrant-manager
   - vlc
+  - webpquicklook
   #https://github.com/Homebrew/homebrew-cask/issues/39369
   # - virtualbox
