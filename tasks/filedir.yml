@@ -45,11 +45,6 @@
   tags:
     - downloads
 
-- name: Open Astrill download page since downloading had cert errors.
-  command: "open https://www.astrill.com/download.php"
-  tags:
-    - downloads
-
 - name: Open VeraCrypt DL page.
   command: "open https://veracrypt.codeplex.com/downloads/get/1537180"
   tags:
