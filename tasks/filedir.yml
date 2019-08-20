@@ -70,3 +70,8 @@
   tags:
     - downloads
 
+- name: Restore Sequel Pro favorites.
+  command: "open https://medium.com/@harrybailey/backup-restore-sequel-pro-favourites-977f99512ec9"
+  tags:
+    - downloads
+
